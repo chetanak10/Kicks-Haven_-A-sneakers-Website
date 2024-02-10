@@ -1,0 +1,33 @@
+#featured-sneakers {
+    background-color: #9f6b6b;
+    padding: 20px;
+}
+
+#sneaker-brands {
+    background-color: #eee;
+    padding: 20px;
+}
+
+#sneaker-glossary {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.featured-sneakers img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sneaker-brands ol,
+.sneaker-glossary dl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sneaker-brands li,
+.sneaker-glossary dt {
+    font-weight: bold;
+}
